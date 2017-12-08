@@ -2,7 +2,7 @@ CROSS_HOST="i686-w64-mingw32"
 inherit cross
 
 NAME="mingw64-i686-SDL2_image"
-VERSION=2.0.1
+VERSION=2.0.2
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="SDL2 image loading library for Win32 toolchain"
@@ -20,5 +20,3 @@ PATCH_URI="1.2.12-windres.patch"
 # static).  Therefore, we must use these macros and the corresponding ltmain.sh.
 NO_LIBTOOLIZE=1
 ACLOCAL_FLAGS="-I acinclude"
-
-KEEP_LA_FILES="none"
